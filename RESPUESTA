@@ -1,0 +1,11 @@
+Para saber los archivos que pudieron ser alterados, necesitamos tener en cuenta los hashes MD5 que nos proporcionan.
+bloc de notas: 5321e15edd060b17ec3222a2ed4fa973 | word: 9543c12bd48090a5810e0a9293e641dc | point: ffcfa592c2f3da4ac7226ba8e273282a
+Por lo que procedemos a descargar los archivos a verificar, y para el calculo de hashes usaremos la consola de comandos de Windows
+
+Nos deberemos situar en la ruta donde se encuentran nuestro archivos y escribir los siguientes comandos:
+Para el archivo BLOCDENOTAS -> CertUtil -hashfile BLOCDENOTAS.txt md5
+Para el archivo WORD -> CertUtil -hashfile WORD.docx md5
+Para el archivo POWERPOINT -> CertUtil -hashfile POWERPOINT.pptx md5
+
+Cada uno de estos comandos nos arrojará un hash MD5 con el que podemos comparar con los originales, de esta manera nos daremos cuenta que el archivo alterado es BLOCDENOTAS
+BLOCDENOTAS -> 2c38c8d4b99c38d586a0b04c0404838e

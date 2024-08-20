@@ -1,0 +1,6 @@
+Integridad de Archivos
+
+La integridad de archivos se refiere a la protección de los archivos contra alteraciones no autorizadas. 
+Asegurar que los archivos no hayan sido modificados de manera inapropiada es crucial para mantener la confianza en la precisión y la fiabilidad de los datos. 
+Mediante técnicas como el uso de sumas de verificación (hashes) y firmas digitales, se puede verificar la autenticidad de los archivos y detectar posibles manipulaciones, protegiendo así la integridad de la información crítica en sistemas informáticos.
+
